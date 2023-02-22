@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ApiNetMVC-SKA/1.0.0": {
+        "dependencies": {
+          "ApiNetMVC-SKA.core": "1.0.0"
+        },
+        "runtime": {
+          "ApiNetMVC-SKA.dll": {}
+        }
+      },
+      "ApiNetMVC-SKA.core/1.0.0": {
+        "runtime": {
+          "ApiNetMVC-SKA.core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ApiNetMVC-SKA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ApiNetMVC-SKA.core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

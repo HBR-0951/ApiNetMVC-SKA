@@ -1,0 +1,31 @@
+﻿@model Product
+
+<style>
+    table, th, td{
+        border: 1px solid;
+    }
+
+</style>
+
+<h2>Product List</h2>
+<table>
+    <tr>
+        <th >ID</th>
+        <th >Amount</th>
+        <th >Date</th>
+        <th >Remark</th>
+    </tr>
+    @if (Model.ProductsList != null)
+    {
+        foreach (var product in Model.ProductsList)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Amount</td>
+                <td>@product.Date</td>
+                <td>@product.Remark</td>
+            </tr>
+        }
+    }
+   
+</table>

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiNetMVC-SKA", "ApiNetMVC-SKA\ApiNetMVC-SKA.csproj", "{E83602D7-657D-480F-9804-A824F72D9BE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiNetMVC-SKA.core", "ApiNetMVC-SKA.core\ApiNetMVC-SKA.core.csproj", "{CDBCDDA5-AF95-4AE4-A24A-D77A15CDB02B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E83602D7-657D-480F-9804-A824F72D9BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83602D7-657D-480F-9804-A824F72D9BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83602D7-657D-480F-9804-A824F72D9BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83602D7-657D-480F-9804-A824F72D9BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBCDDA5-AF95-4AE4-A24A-D77A15CDB02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBCDDA5-AF95-4AE4-A24A-D77A15CDB02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBCDDA5-AF95-4AE4-A24A-D77A15CDB02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBCDDA5-AF95-4AE4-A24A-D77A15CDB02B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

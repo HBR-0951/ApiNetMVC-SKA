@@ -1,0 +1,25 @@
+﻿@model ApiNetMVC_SKA.Models.Product
+<h2>Insert Product</h2>
+
+<form asp-controller="ApiProduct" asp-action="Save">
+    Amount
+    <input value = "@Model.Amount" asp-for="Amount"/>
+    <span asp-validation-for="Amount"></span>
+    <br/><br/>
+    Date
+    <input asp-for="Date" value="@Model.Date.ToString("yyyy-MM-ddTHH:mm:ss")"/>
+    <span asp-validation-for="Date"></span>
+    <br/><br/>
+    Remark
+    <input value = "@Model.Remark" asp-for="Remark"/>
+    <span asp-validation-for="Remark"></span>
+    <br/><br/>
+    <button class="Submit">Submit</button>
+</form>
+
+
+<script>
+    $(Submit).click(function (){
+    
+    });
+</script>
